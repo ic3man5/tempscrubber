@@ -1,0 +1,26 @@
+# This configuration file needs to be placed in %HOMEPATH%\temp_scrubber\temp_files.yaml (~/temp_scrubber/temp_files.yaml on linux)
+# H = Hours
+# D = Days
+# W = Weeks
+# M = Months (30 days assumed always)
+# Y = Years
+
+5MinuteLocation:
+  location: C:\share\5M
+  duration: 5
+
+24HoursLocation:
+  location: C:\share\24hr
+  duration: 24H
+
+3DayLocation:
+  location: C:\share\3Days
+  duration: 3D
+
+3MonthLocation:
+  location: C:\share\3Months
+  duration: 3M
+
+1YearLocation:
+  location: C:\share\1Year
+  duration: 1Y
