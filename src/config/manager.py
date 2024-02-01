@@ -5,7 +5,7 @@ import shutil
 class ConfigManager(object):
     def __init__(self):
         home_directory = pathlib.Path.home()
-        self._path = pathlib.Path.joinpath(home_directory, "tempscrubber")
+        self._path = pathlib.Path.joinpath(home_directory, ".tempscrubber")
         exists = self._path.exists()
         self._path.mkdir(exist_ok=True)
         # Copy over the default files if they don't exist
