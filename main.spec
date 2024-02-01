@@ -4,8 +4,8 @@
 block_cipher = None
 
 
-a = Analysis(['src\\main.py'],
-             pathex=['C:\\dev\\temp_scrubber'],
+a = Analysis(['src/main.py'],
+             pathex=['.'],
              binaries=[],
              datas=[],
              hiddenimports=[],
