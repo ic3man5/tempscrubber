@@ -25,7 +25,7 @@ jobs:
       - name: Run PyInstaller
         run: |
           python -m PyInstaller main.spec
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v3
         with:
           pattern: dist-*
           merge-multiple: true
